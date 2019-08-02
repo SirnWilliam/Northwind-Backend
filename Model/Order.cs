@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Practic.Model
 {
     public class Order
     {
-        //Table fields
+        // Order table fields
         public int OrderID { get; set; }
         public string CustomerID { get; set; }
         public int EmployeeID { get; set; }
@@ -21,5 +18,6 @@ namespace Practic.Model
         public string ShipRegion { get; set; }
         public string ShipPostalCode { get; set; }
         public string ShipCountry { get; set; }
+        public string CategoryCode { get; set; }
     }
 }

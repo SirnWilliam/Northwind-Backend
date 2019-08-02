@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Practic.Model
+﻿namespace Practic.Model
 {
+    /*
+     * I created this class just to handle the output information.
+     */
     public class OrderIDInfo
     {
         public string ObfuscatedInfo { get; set; }

@@ -1,8 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Practic.Model
 {
@@ -14,5 +10,7 @@ namespace Practic.Model
         }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Category> Categories { get; set; }
-}
+        public DbSet<Product> Products { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+    }
 }
